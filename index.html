@@ -1,20 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Portfolio</title>
-    <style> 
-        html {
-           height: 100%;
-        }
-        body {
-          background: url('Background.jpg');
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-        }
-    </style>  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница в разработке</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      html {
+        height: 100%;
+      }
+      body {
+        background-position: center;
+        background-size: cover;
+      }
+      .rounded-img {
+        width: 100%;
+        border-radius: 5%;
+        box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+        padding: 0.1em;
+        margin-bottom: 1em;
+        left: 100;
+      }
+    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
-  <body>
-    <p>When To here will be my portfolio.</p
-  </body>  
+
+  <body class="bg-body-tertiary">
+    <div class="container my-3">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="col-lg-8">
+            <img class="rounded-img" src="photo.jpg" alt="image" />
+          </div>
+        </div>
+        <div class="col">
+          <img src="java.png " width="105" alt="" />
+          <img src="sql.png" width="100" alt="" />
+          <img src="Git.png" width="90" alt="" />
+          <img src="Docker.png" width="140" alt="" />
+          <img src="spring.png" width="220" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="fw-light fw-semibold">Добро пожаловать.</h1>
+      <p class="lead text-align my-3">
+        Меня зовут Дмитрий, я рад видеть вас на своей странице. В 2022 году я
+        окончил курсы Яндекс.практикума по специальности Java-developer. На этой
+        странице я хочу продемонстрировать проекты, что я сделал во время
+        обучения и рассказать о приобретенных компетенциях.
+      </p>
+      <p class="lead text-align">
+        Сейчас я нахожусь в поиске своей первой официальной работы в должности
+        разработчика. Я продолжаю самостоятельно обучаться и буду дополнять эту
+        страницу информацией о новых компетенциях и проектах.
+      </p>
+      <a
+        href="mailto:Dkantserev@gmail.com"
+        target="_blank"
+        class="btn btn-primary my-3"
+      >
+        написать мне на почту
+      </a>
+    </div>
+  </body>
 </html>
